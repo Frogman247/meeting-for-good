@@ -1,3 +1,4 @@
+/*
 const exec = require('child_process').exec;
 require('dotenv').config();
 
@@ -15,3 +16,4 @@ exec(`curl ${args}`, (error, stdout, stderr) => {
   }
 });
 
+*/
