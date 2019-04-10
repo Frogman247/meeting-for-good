@@ -1,6 +1,6 @@
 // to work needs to be the fisrt one and as require.
 import 'dotenv/config';
-import opbeat from 'opbeat/start';
+//import opbeat from 'opbeat/start';
 import mongoose from 'mongoose';
 import passport from 'passport';
 import session from 'express-session';
