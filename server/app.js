@@ -78,7 +78,7 @@ app.use(passport.session());
 
 app.use('/', express.static(`${__dirname}/`, { maxAge: 31557600000 }));
 app.use('/client/', express.static(`${__dirname}/client/`, { maxAge: 31557600000 }));
-app.use(opbeat.middleware.express());
+//app.use(opbeat.middleware.express());
 routes(app);
 
 const port = process.env.PORT || 8080;
