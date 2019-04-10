@@ -1,4 +1,4 @@
-const exec = require('child_process').exec;
+//const exec = require('child_process').exec;
 //require('dotenv').config();
 
 //let args = `https://intake.opbeat.com/api/v1/organizations/${process.env.OPBEAT_ORGANIZATION_ID}/apps/${process.env.OPBEAT_APP_ID}/releases/ `;
