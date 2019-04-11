@@ -1,3 +1,4 @@
+console.log("21")
 import React from 'react';
 import { Router, browserHistory } from 'react-router';
 import ReactGA from 'react-ga';
@@ -71,3 +72,4 @@ const Routes = () => (
 );
 
 export default Routes;
+console.log("22")
