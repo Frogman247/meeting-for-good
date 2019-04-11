@@ -1,3 +1,4 @@
+console.log("15")
 import passport from 'passport';
 import refresh from 'passport-oauth2-refresh';
 
@@ -41,3 +42,4 @@ export const setup = (User, config) => {
   passport.use('google', strategy(User, config));
   refresh.use('google', strategy(User, config));
 };
+console.log("16")
