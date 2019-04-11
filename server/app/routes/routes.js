@@ -5,7 +5,7 @@ import auth from '../../auth';
 import email from '../../api/email';
 import ggcalendar from '../../api/ggcalendar';
 import stats from '../../api/stats';
-
+console.log("11")
 const path = process.cwd();
 
 export default (app) => {
@@ -35,3 +35,4 @@ export default (app) => {
   app.route('*')
     .get((req, res) => res.sendFile(`${path}/build/index.html`));
 };
+console.log("12")
