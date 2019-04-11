@@ -1,3 +1,4 @@
+console.log("9")
 import User from '../../api/user/user.model';
 
 module.exports = (passport) => {
@@ -11,3 +12,4 @@ module.exports = (passport) => {
     });
   });
 };
+console.log("10")
