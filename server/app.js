@@ -15,12 +15,12 @@ import { computeStats } from './api/stats/stats.controller';
 
 process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 
-
+console.log("One");
 const app = express();
 app.use(compression({ threshold: 0 }));
 mongoose.Promise = global.Promise;
 mongoose.connect((process.env.NODE_ENV === 'test') ? process.env.MONGO_URI_TEST : process.env.MONGO_URI);
-
+console.log("two");
 if (process.env.NODE_ENV === 'development') {
   // Development Env specific stuff
   // - Use MemoryStore for the session
