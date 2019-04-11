@@ -1,6 +1,7 @@
 // to work needs to be the fisrt one and as require.
+console.log("33")
 import 'dotenv/config';
-//import opbeat from 'opbeat/start';
+import opbeat from 'opbeat/start';
 import mongoose from 'mongoose';
 import passport from 'passport';
 import session from 'express-session';
@@ -78,7 +79,7 @@ app.use(passport.session());
 
 app.use('/', express.static(`${__dirname}/`, { maxAge: 31557600000 }));
 app.use('/client/', express.static(`${__dirname}/client/`, { maxAge: 31557600000 }));
-//app.use(opbeat.middleware.express());
+app.use(opbeat.middleware.express());
 routes(app);
 
 const port = process.env.PORT || 8080;
@@ -90,3 +91,4 @@ app.listen(port, () => {
 computeStats();
 const interval = parseInt(process.env.STATS_UPDATE_INTERVAL || '3600', 10) * 1000;
 setInterval(() => computeStats(), interval);
+console.log("34")
