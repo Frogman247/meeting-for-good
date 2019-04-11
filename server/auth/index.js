@@ -1,5 +1,5 @@
 'use strict';
-
+console.log("17")
 import express from 'express';
 import config from '../app/config/auth';
 import User from '../api/user/user.model';
@@ -24,3 +24,4 @@ router.get('/logout', ((req, res) => {
 
 module.exports = router;
 
+console.log("18")
