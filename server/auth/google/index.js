@@ -4,7 +4,7 @@ import express from 'express';
 import passport from 'passport';
 
 const router = express.Router();
-
+console.log("13")
 router.get('/', passport.authenticate('google', {
   scope: [
     'https://www.googleapis.com/auth/userinfo.profile',
@@ -22,3 +22,4 @@ router.get('/callback', passport.authenticate('google', {
 }));
 
 module.exports = router;
+console.log("14")
