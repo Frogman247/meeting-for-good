@@ -1,3 +1,4 @@
+console.log("19")
 import { AppContainer } from 'react-hot-loader'; // required
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -51,3 +52,4 @@ if (module.hot) {
     );
   });
 }
+console.log("20")
