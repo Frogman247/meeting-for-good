@@ -1,4 +1,4 @@
-
+console.log("25")
 import { loadEvent, loadOwnerData } from '../util/events';
 import { sendEmailOwner, sendEmailOwnerEdit } from '../util/emails';
 
@@ -27,3 +27,4 @@ const handleEmailOwner = async (event, curUser, eventEdited = false) => {
 };
 
 export { handleEmailOwner, handleLoadEvent };
+console.log("26")
