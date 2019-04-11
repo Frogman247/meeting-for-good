@@ -1,3 +1,4 @@
+console.log("three")
 const chalk = require('chalk');
 
 /**
@@ -9,3 +10,4 @@ function addCheckMark(callback) {
 }
 
 module.exports = addCheckMark;
+console.log("four")
