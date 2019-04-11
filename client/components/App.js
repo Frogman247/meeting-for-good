@@ -1,3 +1,4 @@
+console.log("23")
 import React, { Component, cloneElement } from 'react';
 import autobind from 'autobind-decorator';
 import { browserHistory } from 'react-router';
@@ -382,3 +383,4 @@ App.propTypes = {
 };
 
 export default App;
+console.log("24")
