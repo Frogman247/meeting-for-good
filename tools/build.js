@@ -2,6 +2,7 @@
 import webpack from 'webpack';
 import config from '../webpack.config.prod';
 
+console.log("one")
 webpack(config).run((error, stats) => {
   if (error) {
     console.log(error);
@@ -22,3 +23,5 @@ webpack(config).run((error, stats) => {
 
   return 0;
 });
+
+console.log("two")
